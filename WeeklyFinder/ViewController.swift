@@ -1,19 +1,12 @@
-//
-//  ViewController.swift
-//  WeeklyFinder
-//
-//  Created by user199993 on 8/27/21.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBOutlet private weak var dateTextField: UITextField!
+    @IBOutlet private weak var monthTextField: UITextField!
+    @IBOutlet private weak var yearTextField: UITextField!
+    @IBOutlet private weak var resultLabel: UILabel!
+    
+    @IBAction private func findDay(_ sender: UIButton) {
     }
-
-
 }
-
